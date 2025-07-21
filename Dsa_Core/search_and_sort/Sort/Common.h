@@ -1,4 +1,5 @@
 #include<iostream>
+#include "vector"
 #pragma once
 using namespace std;
 
@@ -16,4 +17,11 @@ void print(int a[], int n) {
         else { cout << a[i] << ", "; }
     }
     cout << "]";
+}
+
+void printVector(vector<int>numbers){
+    for(int i = 0; i < numbers.size(); i++){
+        if (i == numbers.size() - 1){ cout << numbers[i]; }
+        else { cout << numbers[i] << ", "; }
+    }
 }
