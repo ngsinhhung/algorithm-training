@@ -2,6 +2,7 @@
 #include "Common.h"
 #include "Interchange_Sort.h"
 #include "Bubble_Sort.h"
+#include "Insersion_Sort.h"
 using namespace std;
 
 
@@ -14,7 +15,7 @@ int main() {
 
 
     vector<int> vNum = {6,5,3,1,8,7,2,4};
-    Bubble_Sort_1(vNum);
+    Insersion_Sort(vNum);
     printVector(vNum);
 
 
