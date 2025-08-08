@@ -1,1 +1,1 @@
-# competitive-programming
+# algorithm-training
