@@ -1,3 +1,5 @@
+package LeetCodeV2.TwoPointers;
+
 public class LC167TwoSumIIInputArrayIsSorted {
     public int[] twoSum(int[] numbers, int target) {
         int l = 0, r = numbers.length - 1;
